@@ -278,7 +278,9 @@ nav ul li a:hover {
     nav ul li{margin-left: -10px; margin-right: 5px;padding-left: -20px;}    
     .title h4{margin-top: -200px;}
     .heading span{margin-left: -30px;}
-    .about-text p{padding-left: -100px;margin-left: -30px;margin-right: 10px;}
+    .about-img img{margin-left: -18px;}
+    .about-text p{padding-left: -100px;margin-left: -30px;margin-right: 20px;}
+    .info-box{margin-right: 20px;}
     .education h3{width: 98.7%;}
     .education p{display: inline-block; height: 360px;}
     .contents{width: 175%;margin-left: -90px;}
