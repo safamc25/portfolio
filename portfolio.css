@@ -257,3 +257,29 @@ nav ul li a:hover {
     font-weight: bolder;
     color: white;
 }
+
+
+/* responsive */
+
+@media(max-width:600px){
+    nav .logo{margin-left: -5px;}
+    nav ul li{margin-left: -20px;padding-left: -10px;padding-right: 10px;}
+    .title h4{margin-top: -250px;}
+    .heading h2{margin-top: -90px; }
+    .about-text p{text-align: justify;padding-left: -10px;}
+    .education li{ display: inline;}
+    .education h3{width: 94%;}
+    .education p{height: 180px; text-align: justify;}
+    .contents{width: 120%; margin-left: -30px;}
+    #contact{margin-top: 150px;}
+}
+
+@media(max-width:450px){
+    nav ul li{margin-left: -10px; margin-right: 5px;padding-left: -20px;}    
+    .title h4{margin-top: -200px;}
+    .heading span{margin-left: -30px;}
+    .about-text p{padding-left: -100px;margin-left: -30px;margin-right: 10px;}
+    .education h3{width: 98.7%;}
+    .education p{display: inline-block; height: 360px;}
+    .contents{width: 175%;margin-left: -90px;}
+}
