@@ -15,15 +15,18 @@
 <body>
 
     <div class="container" id="container">
-        <nav>
-            <img src="./images/safa.png" alt="no image" class="logo">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+        <nav id="nav">
 
-            </ul>
+            <img src="./images/safa.png" alt="no image" class="logo">
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
         </nav>
         <section id="home" class="home">
             <div class="title">
@@ -181,16 +184,19 @@
 
         </section>
 
-        <!-- footer -->
-        <!-- <footer>
-            <p style="text-align: center;">&copy;MY PORTFOLIO WEBSITE 2023 ALL RIGHT RESERVED &reg; SAFA MOL</p>
-        </footer> -->
 
 
 
 
     </div>
-
+   
 </body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+</script>
+
 
 </html>
